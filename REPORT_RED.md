@@ -76,4 +76,8 @@ msf exploit(handler) > exploit
 ```
 
 - Capture and show the flag.
+```
+find / -type f -name 'flag.txt' 2>/dev/null -exec cat {} \'
+```
+
 <img src="images/red-17.png" />
